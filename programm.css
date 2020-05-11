@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    width: 400px;
+    height: 330px;
+    margin: 0 auto;
+    background-color: violet;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    -moz-appearance: textfield;
+}
+
+input::-webkit-inner-spin-button { 
+    display: none;
+}
+
+.input1{
+    margin: 0 auto;
+    width: 300px;
+}
+
+.input2{
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 50px;
+}
+
+h3{
+    padding-left: 125px;
+}
+
+h2{
+    padding-left: 75px;
+    padding-top: 30px;
+}
