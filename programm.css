@@ -1,14 +1,14 @@
 body{
-    background-color: aquamarine;
+    background-color: #ffffff ;
 }
 
 .container{
-    width: 400px;
-    height: 330px;
+    width: 700px;
+    height: 800px;
     margin: 0 auto;
-    background-color: violet;
+    background-color: #EBF6FB;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 input{
@@ -17,6 +17,10 @@ input{
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    
     -moz-appearance: textfield;
 }
 
@@ -24,22 +28,50 @@ input::-webkit-inner-spin-button {
     display: none;
 }
 
-.input1{
+.input{
     margin: 0 auto;
-    width: 300px;
-}
-
-.input2{
-    margin: 0 auto;
-    width: 300px;
-    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+    
 }
 
 h3{
-    padding-left: 125px;
+   float: left;
+   padding-left: 20px;
+   padding-bottom: 40px;
 }
 
-h2{
-    padding-left: 75px;
-    padding-top: 30px;
+h2 {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h6{
+    padding-top: 50px;
+    padding-left: 320px;
+    color : #A499A6;
+}
+
+.input2{
+    margin-bottom: -25px;
+}
+
+.disco{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius : 5px;
+    margin: 0 auto;
+}
+ h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 19.5px;
+    padding-top: 12.5px;
+}
+
+.toggle{
+    background-color : yellow;
 }
